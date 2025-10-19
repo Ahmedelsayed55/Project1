@@ -6,7 +6,7 @@ export default function SectionThird() {
   console.log(data); 
 
   return (
-    <div className="w[100%] max-w-[1284px] mx-auto flex flex-wrap justify-between  ">
+    <div className="w[100%] max-w-[1284px] mx-auto flex flex-wrap justify-between py-20 ">
       {data.map((item, index) => (
         <div
           key={index}
