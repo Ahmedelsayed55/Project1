@@ -1,6 +1,6 @@
 import React from "react";
 import heroImg from "../assets/HeroImage.png";
-
+import icon from '../assets/icon.svg'
 
 
 export const Hero = () => {
@@ -11,9 +11,10 @@ export const Hero = () => {
         alt="Hero Photo"
         className="w-[100%] max-w-[1202px] h-auto lg:h-[737px]"
       />
-      <div className="container w-[1260px] absolute left-[10%] top-[25%] flex gap-28">
+      <div className="container w-[1260px] absolute left-[10%] top-[25%] flex gap-28 items-center">
+    <img src={icon} alt="" className="absolute -top-30"/>
         <div className="w-1/2 flex flex-col gap-10">
-          <h1 className="text-7xl font-semibold ">
+          <h1 className="text-[4em] font-bold  ">
             Body Mass Index Calculator
           </h1>
           <p className=" text-[1.3rem] text-gray-600">
