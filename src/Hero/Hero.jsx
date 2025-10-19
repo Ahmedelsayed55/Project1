@@ -11,7 +11,7 @@ export const Hero = () => {
         alt="Hero Photo"
         className="w-[100%] max-w-[1202px] h-auto lg:h-[737px]"
       />
-      <div className="container w-[1260px] absolute left-[14%] top-[25%] flex gap-28">
+      <div className="container w-[1260px] absolute left-[10%] top-[25%] flex gap-28">
         <div className="w-1/2 flex flex-col gap-10">
           <h1 className="text-7xl font-semibold ">
             Body Mass Index Calculator
