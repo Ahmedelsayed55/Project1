@@ -1,6 +1,6 @@
 import React from "react";
 import heroImg from "../assets/HeroImage.png";
-import icon from '../assets/icon.svg'
+import icon from '../assets/Icon.svg';
 
 
 export const Hero = () => {
