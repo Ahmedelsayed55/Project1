@@ -1,23 +1,21 @@
 import React from "react";
 import heroImg from "../assets/HeroImage.png";
-import icon from '../assets/Icon.svg';
-
+import icon from "../assets/Icon.svg";
 
 export const Hero = () => {
   return (
-    <div className=" bg-[url('../assets/HeroImage.png')] relative ">
-      <img
-        src={heroImg}
+    <div className="  py-50 "   style={{ backgroundImage: `url(${heroImg})` , backgroundRepeat: "no-repeat", 
+    backgroundSize: "auto", 
+    backgroundPosition: "top center" }}>
+      {/* <img src={heroImg}
         alt="Hero Photo"
         className="w-[100%] max-w-[1202px] h-auto lg:h-[737px]"
-      />
-      <div className="container w-[1260px] absolute left-[10%] top-[25%] flex gap-28 items-center">
-    <img src={icon} alt="" className="absolute -top-30"/>
-        <div className="w-1/2 flex flex-col gap-10">
-          <h1 className="text-[4em] font-bold  ">
-            Body Mass Index Calculator
-          </h1>
-          <p className=" text-[1.3rem] text-gray-600">
+      /> */}
+      <div className="container relative w-[1284px] flex flex-col lg:flex-row mx-auto gap-10 lg:gap-0 items-center flex-wrap">
+        <img src={icon} alt="" className="absolute left-0 -top-30" />
+        <div className="w-[90%] lg:w-1/2 flex flex-col gap-10">
+          <h1 className="text-[2em] lg:text-[4em] font-bold  ">Body Mass Index Calculator</h1>
+          <p className="text-[1rem] lg:text-[1.3rem] text-gray-600">
             Better understand your weight in relation to your height using our
             body mass index (BM) calculator. While BMI is not the sole
             determinant of a healthy weight, it offers a valuable starting point
@@ -25,7 +23,7 @@ export const Hero = () => {
           </p>
         </div>
 
-        <div className="w-1/2 bg-white rounded-3xl  shadow-[0_4px_20px_rgba(0,0,0,0.25)] flex flex-col gap-7 p-10">
+        <div className=" w-[90%] lg:w-1/2 bg-white rounded-3xl  shadow-[0_4px_20px_rgba(0,0,0,0.25)] flex flex-col gap-7 p-10">
           <h2 className="text-2xl font-semibold">Enter your details below</h2>
 
           <div className="flex justify-between ">
@@ -70,7 +68,8 @@ export const Hero = () => {
             </div>
             <p className="text-white w-1/2">
               Your BMI suggests you’re a healthy weight. Your ideal weight is
-              between <span className="font-semibold">63.5kgs</span> - <span className="font-semibold">85.2kgs</span>.
+              between <span className="font-semibold">63.5kgs</span> -{" "}
+              <span className="font-semibold">85.2kgs</span>.
             </p>
           </div>
         </div>
