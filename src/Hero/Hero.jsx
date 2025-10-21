@@ -4,9 +4,15 @@ import icon from "../assets/Icon.svg";
 
 export const Hero = () => {
   return (
-    <div className="  py-50 "   style={{ backgroundImage: `url(${heroImg})` , backgroundRepeat: "no-repeat", 
-    backgroundSize: "auto", 
-    backgroundPosition: "top center"}}>
+    <div
+      className="  py-50 "
+      style={{
+        backgroundImage: `url(${heroImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "auto",
+        backgroundPosition: "top center",
+      }}
+    >
       {/* <img src={heroImg}
         alt="Hero Photo"
         className="w-[100%] max-w-[1202px] h-auto lg:h-[737px]"
@@ -14,7 +20,9 @@ export const Hero = () => {
       <div className="container relative  max-w-[1284px] flex flex-col lg:flex-row mx-auto gap-10 lg:gap-0 items-center flex-wrap">
         <img src={icon} alt="" className="absolute left-0 -top-30" />
         <div className="w-[90%] lg:w-1/2 flex flex-col gap-10">
-          <h1 className="text-[2em] lg:text-[4em] font-bold  ">Body Mass Index Calculator</h1>
+          <h1 className="text-[2em] lg:text-[4em] font-bold  ">
+            Body Mass Index Calculator
+          </h1>
           <p className="text-[1rem] lg:text-[1.3rem] text-gray-600">
             Better understand your weight in relation to your height using our
             body mass index (BM) calculator. While BMI is not the sole
@@ -61,9 +69,11 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="flex gap-0 lg:gap-20 bg-[#345FF6] px-9 py-6 rounded rounded-r-[999px] ">
+          <div className="flex gap-3 lg:gap-20 bg-[#345FF6] px-5 lg:px-9 py-6 rounded rounded-r-[999px] ">
             <div className="flex flex-col gap-3 text-white">
-              <p className="text-sm lg:text-lg">Your BMI is...</p>
+              <p className="text-sm text-nowrap lg:text-lg">
+               Your BMI is...
+              </p>
               <h2 className="text-2xl lg:text-6xl font-semibold">23.4</h2>
             </div>
             <p className="text-white  text-sm lg:text-lg">
