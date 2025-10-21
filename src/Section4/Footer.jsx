@@ -8,8 +8,8 @@ const Footer = () => {
     <div className="w-[100%] max-w-[1284px] mx-auto flex flex-col gap-10 pb-10">
       <div className="w-[100%] max-w-[961px] ml-auto  ">
         {/* top */}
-        <div className="flex gap-10 ">
-          <div className="flex flex-col gap-5 w-1/2 max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_20px_50px_#8FAECF40] p-5 ">
+        <div className="flex gap-10 flex-wrap justify-center">
+          <div className="flex flex-col gap-5 w-xs max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_20px_50px_#8FAECF40] p-5 ">
             <div className="flex gap-2">
               <img src={age} alt="" />
               <h2>Age</h2>
@@ -19,7 +19,7 @@ const Footer = () => {
               BMI to underestimate body fat content.
             </p>
           </div>
-          <div className="flex flex-col gap-5 w-1/2 max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_20px_50px_#8FAECF40] p-5 ">
+          <div className="flex flex-col gap-5 w-xs max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_20px_50px_#8FAECF40] p-5 ">
             <div className="flex gap-2">
               <img src={muscle} alt="" />
               <h2>Muscle</h2>
@@ -34,8 +34,8 @@ const Footer = () => {
       
       
         <div className="w-[100%] max-w-[961px] mr-auto flex flex-col gap-20 ">
-        <div className="flex gap-10">
-             <div className="flex flex-col gap-5 w-1/2 max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_4px_4px_#8FAECF40] p-5 ">
+        <div className="flex gap-10 flex-wrap justify-center">
+             <div className="flex flex-col gap-5 w-xs max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_4px_4px_#8FAECF40] p-5 ">
             <div className="flex gap-2">
               <img src={pregnancy} alt="" />
               <h2>Pregnancy</h2>
@@ -45,7 +45,7 @@ const Footer = () => {
               BMI to underestimate body fat content.
             </p>
           </div>
-          <div className="flex flex-col gap-5 w-1/2 max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_4px_4px_#8FAECF40] p-5 ">
+          <div className="flex flex-col gap-5 w-xs max-w-[400px] bg-[##8FAECF40] mt-2 shadow-[0_4px_4px_#8FAECF40] p-5 ">
             <div className="flex gap-2">
               <img src={race} alt="" />
               <h2>Race</h2>
