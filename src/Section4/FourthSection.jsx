@@ -13,7 +13,7 @@ const FourthSection = () => {
             may not be beneficial to use.
           </p>
         </div>
-        <div className="flex flex-col gap-5 w-1/2 max-w-[365px] bg-[##8FAECF40] mt-2 shadow-[0_50px_50px_#8FAECF40] p-5 ">
+        <div className="flex flex-col gap-5 flex-wrap max-w-[365px] bg-[##8FAECF40] mt-2 shadow-[0_50px_50px_#8FAECF40] p-5 ">
           <div className="flex gap-2">
             <img src={icon} alt="" />
             <h2>Gender</h2>
