@@ -23,7 +23,7 @@ export const Hero = () => {
           <h1 className="text-[2em] lg:text-[4em] font-bold  ">
             Body Mass Index Calculator
           </h1>
-          <p className="text-[1rem] lg:text-[1.3rem] text-gray-600">
+          <p className="text-[1rem] text-center lg:text-left lg:text-[1.3rem] text-gray-600">
             Better understand your weight in relation to your height using our
             body mass index (BM) calculator. While BMI is not the sole
             determinant of a healthy weight, it offers a valuable starting point
