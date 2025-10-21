@@ -6,11 +6,11 @@ export default function SectionThird() {
   console.log(data); 
 
   return (
-    <div className="w[100%] max-w-[1284px] mx-auto flex flex-wrap justify-between py-20 ">
+    <div className="w[100%] max-w-[1284px] items-center  mx-auto flex flex-wrap justify-center lg:justify-between py-20 ">
       {data.map((item, index) => (
         <div
           key={index}
-          className="w-1/3 bg-white rounded-xl p-4"
+          className="w-2xs bg-white rounded-xl p-4"
         >
           <img
             src={item.img}

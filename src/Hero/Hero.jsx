@@ -6,12 +6,12 @@ export const Hero = () => {
   return (
     <div className="  py-50 "   style={{ backgroundImage: `url(${heroImg})` , backgroundRepeat: "no-repeat", 
     backgroundSize: "auto", 
-    backgroundPosition: "top center" }}>
+    backgroundPosition: "top center"}}>
       {/* <img src={heroImg}
         alt="Hero Photo"
         className="w-[100%] max-w-[1202px] h-auto lg:h-[737px]"
       /> */}
-      <div className="container relative w-[1284px] flex flex-col lg:flex-row mx-auto gap-10 lg:gap-0 items-center flex-wrap">
+      <div className="container relative  max-w-[1284px] flex flex-col lg:flex-row mx-auto gap-10 lg:gap-0 items-center flex-wrap">
         <img src={icon} alt="" className="absolute left-0 -top-30" />
         <div className="w-[90%] lg:w-1/2 flex flex-col gap-10">
           <h1 className="text-[2em] lg:text-[4em] font-bold  ">Body Mass Index Calculator</h1>
@@ -68,7 +68,7 @@ export const Hero = () => {
             </div>
             <p className="text-white w-1/2">
               Your BMI suggests you’re a healthy weight. Your ideal weight is
-              between <span className="font-semibold">63.5kgs</span> -{" "}
+              between <span className="font-semibold">63.5kgs</span> -
               <span className="font-semibold">85.2kgs</span>.
             </p>
           </div>
