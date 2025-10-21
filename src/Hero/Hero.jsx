@@ -69,14 +69,14 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="flex gap-3 lg:gap-20 bg-[#345FF6] px-3 lg:px-9 py-6 rounded rounded-r-[999px] ">
+          <div className="flex flex-col lg:flex-row gap-3 lg:gap-20 bg-[#345FF6] px-3 lg:px-9 py-6 rounded lg:rounded-r-[999px] ">
             <div className="flex flex-col gap-3 text-white">
               <p className="text-sm text-nowrap lg:text-lg">
                Your BMI is...
               </p>
-              <h2 className="text-2xl lg:text-6xl font-semibold">23.4</h2>
+              <h2 className="text-3xl lg:text-6xl font-semibold">23.4</h2>
             </div>
-            <p className="text-white  text-sm lg:text-lg truncate w-48 overflow-hidden whitespace-nowrap lg:whitespace-normal">
+            <p className="text-white  text-sm lg:text-lg ">
               Your BMI suggests you’re a healthy weight. Your ideal weight is
               between <span className="font-semibold">63.5kgs</span> -
               <span className="font-semibold">85.2kgs</span>.
