@@ -76,7 +76,7 @@ export const Hero = () => {
               </p>
               <h2 className="text-2xl lg:text-6xl font-semibold">23.4</h2>
             </div>
-            <p className="text-white  text-sm lg:text-lg">
+            <p className="text-white  text-sm lg:text-lg truncate w-48 overflow-hidden whitespace-nowrap lg:whitespace-normal">
               Your BMI suggests you’re a healthy weight. Your ideal weight is
               between <span className="font-semibold">63.5kgs</span> -
               <span className="font-semibold">85.2kgs</span>.
