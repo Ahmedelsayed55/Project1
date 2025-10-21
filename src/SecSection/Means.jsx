@@ -5,7 +5,7 @@ export const Means = () => {
     <div className="py-50">
       <div className="w-[100%] max-w-[1284px] mx-auto flex flex-col lg:flex-row items-center  ">
         <img src={persson} alt="Person" className="block w-1/1 lg:w-1/2" />
-        <div className="flex flex-col gap-5 mt-15 w-1/1 lg:w-1/2 ps-15 lg:ps-27" >
+        <div className="flex flex-col gap-5 mt-15 w-1/1 lg:w-1/2 ps-2 lg:ps-15 lg:ps-27" >
           <h1 className=" text-4xl lg:text-[48px] font-semibold tracking-tight">What your BMI result means</h1>
           <p className="w-[100%]">
             A BMI range of 18.5 to 24.9 is considered a 'healthy weight.'
