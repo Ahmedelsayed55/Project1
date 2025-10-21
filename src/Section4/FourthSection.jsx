@@ -3,8 +3,8 @@ import icon from "../assets/Icon (1).svg";
 const FourthSection = () => {
   return (
     <div>
-      <div className="w-[100%] max-w-[1284px] mx-auto flex flex-wrap gap-2 0 py-20 ">
-        <div className="w-1/2 flex flex-col gap-5">
+      <div className="w-[100%] max-w-[1284px] items-center mx-auto flex flex-col lg:flex-row flex-wrap gap-20 py-20 ">
+        <div className="w-[90%] lg:w-1/2 flex flex-col gap-5">
           <h1 className="text-[48px] font-semibold tracking-tight ">Limitations of BMI</h1>
           <p className="w-[85%] tracking-wider text-[#5E6E85]">
             Although BMI is often a practical indicator of healthy weight, it is
