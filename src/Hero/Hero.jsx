@@ -69,7 +69,7 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="flex gap-3 lg:gap-20 bg-[#345FF6] px-5 lg:px-9 py-6 rounded rounded-r-[999px] ">
+          <div className="flex gap-3 lg:gap-20 bg-[#345FF6] px-3 lg:px-9 py-6 rounded rounded-r-[999px] ">
             <div className="flex flex-col gap-3 text-white">
               <p className="text-sm text-nowrap lg:text-lg">
                Your BMI is...
